@@ -40,3 +40,10 @@ Edification Education For Everyone
 
  # Site 
   -- https://furioustheme-edification.netlify.app/ 
+
+
+# Desenvolvedores: 
+-- Caio Oliveira 
+-- Marcos Arruda
+-- Thiago Pereira
+-- Gabriel Pedroso
