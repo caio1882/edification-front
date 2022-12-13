@@ -1,0 +1,27 @@
+.card {
+  max-width: 200px;
+  border: 2.5px solid #c0c0c0;
+}
+.cardImage {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+.cardTitle {
+  font-weight: bold;
+}
+.cardText {
+  color: #8a8a8a;
+}
+.cardTitleCenter {
+  display: flex;
+  justify-content: center;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: #005eff;
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+<div>
+  <div class="titleCental">
+    <h1 class="titleFont">Cursos em destaque</h1>
+</div>
+<div class="cards">
+  <div class="cardItem" *ngFor="let card of cards">
+    <app-cards-courses
+    image="{{ card.image }}"
+    title="{{ card.title }}"
+    text="{{ card.text }}"
+    ></app-cards-courses>
+  </div>
+</div>
+</div>
