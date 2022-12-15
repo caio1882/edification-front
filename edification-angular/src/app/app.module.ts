@@ -12,6 +12,9 @@ import { CardsSmallComponent } from './components/cards-small/cards-small.compon
 import { BannerCommentsComponent } from './components/banner-comments/banner-comments.component';
 import { CardsBlogsComponent } from './components/cards-blogs/cards-blogs.component';
 import { FooterInfoComponent } from './components/footer-info/footer-info.component';
+import { MatCardModule } from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +27,14 @@ import { FooterInfoComponent } from './components/footer-info/footer-info.compon
     CardsSmallComponent,
     BannerCommentsComponent,
     CardsBlogsComponent,
-    FooterInfoComponent
+    FooterInfoComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

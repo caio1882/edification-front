@@ -1,0 +1,14 @@
+.cards {
+  display: flex;
+  justify-content: center;
+}
+.cardItem {
+  margin-left: 20px;
+}
+.titleCental {
+  display: flex;
+  justify-content: center;
+}
+.titleFont {
+  color: #ff6e00;
+}
