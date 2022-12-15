@@ -2,13 +2,13 @@
   display: flex;
   justify-content: center;
 }
-.cardItem{
+.cardItem {
   margin-left: 20px;
 }
-.titleCental{
+.titleCental {
   display: flex;
-    justify-content: center;
+  justify-content: center;
 }
-.titleFont{
+.titleFont {
   color: #ff6e00;
 }

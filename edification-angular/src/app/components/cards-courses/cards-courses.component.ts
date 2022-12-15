@@ -6,9 +6,9 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./cards-courses.component.css'],
 })
 export class CardsCoursesComponent implements OnInit {
-  @Input() image: any;
-  @Input() title: any;
-  @Input() text: any;
+  @Input() image?: string;
+  @Input() title?: string;
+  @Input() text?: string;
 
   constructor() {}
 
